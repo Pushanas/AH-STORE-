@@ -1,0 +1,6 @@
+{
+  "name": "AH STORE + AH HUB",
+  "description": "Premium Global SaaS Platform & Customer Operating System for AH VIP Signals, AH AI Analyzer, and AH Auto Trader.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
