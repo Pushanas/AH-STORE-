@@ -85,7 +85,7 @@ export const Navbar: React.FC = () => {
                     className="absolute top-full left-0 w-80 p-2 mt-1 bg-slate-900/95 border border-slate-800 rounded-2xl shadow-2xl backdrop-blur-2xl"
                   >
                     <button
-                      onClick={() => navigateTo('#/products/ah-vip-signals')}
+                      onClick={() => navigateTo('#/vip-signals')}
                       className="w-full flex items-start gap-3 p-3 rounded-xl hover:bg-slate-800/80 transition-all text-left group"
                     >
                       <img
@@ -105,7 +105,7 @@ export const Navbar: React.FC = () => {
                     </button>
 
                     <button
-                      onClick={() => navigateTo('#/products/ah-ai-analyzer')}
+                      onClick={() => navigateTo('#/ai-analyzer')}
                       className="w-full flex items-start gap-3 p-3 rounded-xl hover:bg-slate-800/80 transition-all text-left group"
                     >
                       <img
@@ -125,7 +125,7 @@ export const Navbar: React.FC = () => {
                     </button>
 
                     <button
-                      onClick={() => navigateTo('#/products/ah-auto-trader')}
+                      onClick={() => navigateTo('#/auto-trader')}
                       className="w-full flex items-start gap-3 p-3 rounded-xl hover:bg-slate-800/80 transition-all text-left group"
                     >
                       <img
@@ -245,19 +245,19 @@ export const Navbar: React.FC = () => {
                 Products Overview
               </button>
               <button
-                onClick={() => navigateTo('#/products/ah-vip-signals')}
+                onClick={() => navigateTo('#/vip-signals')}
                 className="w-full text-left px-6 py-2 text-xs text-blue-400 hover:bg-slate-900 rounded-lg flex items-center gap-2"
               >
                 <Zap className="w-3.5 h-3.5" /> AH VIP Signals
               </button>
               <button
-                onClick={() => navigateTo('#/products/ah-ai-analyzer')}
+                onClick={() => navigateTo('#/ai-analyzer')}
                 className="w-full text-left px-6 py-2 text-xs text-violet-400 hover:bg-slate-900 rounded-lg flex items-center gap-2"
               >
                 <Cpu className="w-3.5 h-3.5" /> AH AI Analyzer
               </button>
               <button
-                onClick={() => navigateTo('#/products/ah-auto-trader')}
+                onClick={() => navigateTo('#/auto-trader')}
                 className="w-full text-left px-6 py-2 text-xs text-emerald-400 hover:bg-slate-900 rounded-lg flex items-center gap-2"
               >
                 <ShieldAlert className="w-3.5 h-3.5" /> AH Auto Trader

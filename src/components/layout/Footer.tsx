@@ -42,7 +42,7 @@ export const Footer: React.FC = () => {
             <ul className="space-y-2">
               <li>
                 <button
-                  onClick={() => navigateTo('#/products/ah-vip-signals')}
+                  onClick={() => navigateTo('#/vip-signals')}
                   className="hover:text-blue-400 transition-colors flex items-center gap-1.5"
                 >
                   <Zap className="w-3.5 h-3.5 text-blue-400" /> AH VIP Signals
@@ -50,7 +50,7 @@ export const Footer: React.FC = () => {
               </li>
               <li>
                 <button
-                  onClick={() => navigateTo('#/products/ah-ai-analyzer')}
+                  onClick={() => navigateTo('#/ai-analyzer')}
                   className="hover:text-violet-400 transition-colors flex items-center gap-1.5"
                 >
                   <Cpu className="w-3.5 h-3.5 text-violet-400" /> AH AI Analyzer
@@ -58,7 +58,7 @@ export const Footer: React.FC = () => {
               </li>
               <li>
                 <button
-                  onClick={() => navigateTo('#/products/ah-auto-trader')}
+                  onClick={() => navigateTo('#/auto-trader')}
                   className="hover:text-emerald-400 transition-colors flex items-center gap-1.5"
                 >
                   <ShieldAlert className="w-3.5 h-3.5 text-emerald-400" /> AH Auto Trader

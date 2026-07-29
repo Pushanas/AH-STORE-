@@ -224,6 +224,16 @@ export const HomePage: React.FC = () => {
                       ))}
                     </ul>
                   </div>
+
+                  <div className="pt-6 border-t border-slate-800/80 mt-6 space-y-3">
+                    <button
+                      onClick={() => navigateTo(`#/${prod.id}`)}
+                      className="w-full py-3 rounded-xl bg-slate-800 hover:bg-slate-700 text-white font-semibold text-xs transition-colors flex items-center justify-center gap-1.5"
+                    >
+                      عرض التفاصيل
+                      <ArrowRight className="w-3.5 h-3.5" />
+                    </button>
+                  </div>
                 </motion.div>
               );
             })}
